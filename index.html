@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inspection Management App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Inspection Management App</h1>
+
+  <section id="equipment-section">
+    <h2>Select Equipment</h2>
+    <select id="equipment-dropdown"></select>
+    <button onclick="loadEquipment()">Load Metadata</button>
+    <div id="equipment-details"></div>
+  </section>
+
+  <section id="inspection-form">
+    <h2>2-Post Hoist Inspection</h2>
+    <form id="inspection">
+      <div id="metadata-fields"></div>
+      <h3>Checklist</h3>
+      <div id="checklist"></div>
+      <button type="submit">Submit Inspection</button>
+    </form>
+  </section>
+
+  <section id="export-section">
+    <h2>Export Inspections</h2>
+    <button onclick="exportToExcel()">Download Excel</button>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

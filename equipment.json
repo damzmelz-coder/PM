@@ -1,0 +1,18 @@
+[
+  {
+    "type": "2-Post Hoist",
+    "make": "PowerLift",
+    "serial": "PL-00234",
+    "area": "Bay 1",
+    "frequency": "Daily",
+    "status": "Active"
+  },
+  {
+    "type": "Aircon",
+    "make": "CoolTech",
+    "serial": "AC-00987",
+    "area": "Workshop",
+    "frequency": "Monthly",
+    "status": "Active"
+  }
+]
